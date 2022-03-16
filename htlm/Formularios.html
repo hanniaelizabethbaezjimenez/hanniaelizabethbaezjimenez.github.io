@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style type="text/css">
+			
+		nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right:5px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	padding-top: 2px;
+	padding-left: 2px;
+	text-align: center;
+			}
+				
+		a {
+	color: #FFFFFF;
+	text-align: center;
+	width: 0;
+}
+		nav ul li a {
+	text-decoration: none;
+	height: 34px;
+	background-color: palevioletred;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+			a:link {
+	color: white;
+	text-align: center;
+}
+		
+		a:visited {
+	color: ghostwhite;
+	text-align: center;
+}
+		
+		a:hover {color: hotpink;}
+		
+		a:active {color: lightpink;}
+			
+		
+		
+		</style>
+<link href="../css/estilo1.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/abril-fatface:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+	<header>
+	<h1>Formulario</h1></header>
+	
+	<nav>	<ul> 
+		
+		<li><a href="index.html">Index</a></li>
+		 
+		<li><a href="Estilos de texto.html">Estilos de Texto</a> </li>
+		<li><a href="Listas.html">Listas</a></li>
+		<li><a href="Tabla con rayas.html">Tabla con rayas</a></li>
+		 
+		 <li><a href="Tablas en HTML.html">Tabla HTML</a></li>
+		 
+		<li><a href="Enlaces.html">Enlaces</a></li>
+		<li><a href="Imágenes.html">Imágenes</a></li>
+		 
+		 <li><a href="Audio.html">Audio</a></li>
+		 
+		 <li><a href="Video.html">Video</a></li>
+		 <li><a href="Formularios.html">Formulario</a></li>
+		
+		 <li><a href="Tipografía.html">Tipografía</a></li>
+		
+		</ul></nav> 
+	
+	<main>
+	<section> <h2>Formulario de Ingreso o autentificación</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur aperiam blanditiis delectus quos ducimus aspernatur, vero inventore ut similique necessitatibus culpa aliquam dolores ex vel minima sit tenetur, doloribus.
+		
+		<form action="ejemplo.php" method="get">
+  <p>Usuario: <input type="text" name="nombre" size="20"></p>
+  <p>Constraseña: <input type="password" name="contrasena" size="20"></p>
+  
+  <p>
+    <input type="submit" value="Enviar"></p>
+   
+
+	
+
+</form>
+		
+		
+		</section>
+	
+		
+		
+	<section>
+		<h2>Formulario de Entrevista </h2>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur aperiam blanditiis delectus quos ducimus aspernatur, vero inventore ut similique necessitatibus culpa aliquam dolores ex vel minima sit tenetur, doloribus.
+		<h3>Encuesta</h3>
+			<p>Edad:</p> <input type="number" name="numero" max="100">
+		
+		<p>Género:</p><input type="radio" name="boton"> Masculino<br>
+<input type="radio" name="boton"> Femenino
+		
+		<p>¿Qué tipo de música escuchas?:</p>
+		
+		<input type="checkbox" name="casilla">Salsa
+		<br>
+		<input type="checkbox" name="casilla">Cumbia
+		<br>
+			<input type="checkbox" name="casilla">Bachata
+		<br>
+		<input type="checkbox" name="casilla">Banda
+		<br>
+		<input type="checkbox" name="casilla">Pop
+		<br>
+		<input type="checkbox" name="casilla">Rock
+		<strong></strong>
+		
+		
+		</section>
+	
+		<section> <h2>Formulario de Comentarios </h2>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur aperiam blanditiis delectus quos ducimus aspernatur, vero inventore ut similique necessitatibus culpa aliquam dolores ex vel minima sit tenetur, doloribus. 
+			<form id="form2"name=" form2" method="post">
+				
+			<label for="email">Email: 
+					</label>
+				
+			<input type="email" name="email" id="email">
+		<label for="text area">Comentario: 
+					</label>
+		<textarea name="textarea" id="textarea" ></textarea>		<input type="submit" name="submit2" id="submit2" value="Enviar"></form>
+			
+			
+		</section>
+	
+	
+	<section>
+		<h2>Formulario de Entrevista </h2>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur aperiam blanditiis delectus quos ducimus aspernatur, vero inventore ut similique necessitatibus culpa aliquam dolores ex vel minima sit tenetur, doloribus.
+		<h3>Encuesta 2</h3>
+		 		<p>Indica tu fecha de nacimiento:</p>	
+	<input type="date" name="fecha">
+		<p>Indica tu nacionalidad:</p>
+		
+		
+		 <input type="text" name="nacionalidad" size="20">
+		
+		<p>¿Indica la hora en la que deseeas tu consulta?:</p>
+		Hora: <input type="time" name="hora">
+		<p>Indica si eres menor o mayor de edad:</p>
+  <input type="radio" name="edad" value="menor"> Menor
+  <input type="radio" name="edad" value="adulto" required> Adulto
+		
+		<p>¿Indica tu color favorito?:</p><input type="color" name="colorElegido">
+		
+		<p>Indique su nivel de satisfacccion de esta encuesta:</p>
+<input type="range" name="rango">
+		
+		<p>Indica tus sintomas:</p><select name="menu">
+  <option>Fiebre</option>
+  <option>Dolor de cabeza</option>
+  <option>Tos</option>
+</select>
+		
+		
+		
+		<p>¿Tomas algun medicamento?:</p><select name="menu">
+  <option>Si</option>
+  <option>No</option>
+</select>
+		
+		<p>¿Padeces hipertencion?:</p><select name="menu">
+  <option>Si</option>
+  <option>No</option>
+</select>
+		
+		<p>¿Padeces diabetes?:</p><select name="menu">
+  <option>Si</option>
+  <option>No</option>
+</select>
+		
+		
+		
+		</section>
+	 
+		
+	</main>
+	
+	 <footer>Elaborado por Hannia Báez</footer>
+</body>
+</html>
